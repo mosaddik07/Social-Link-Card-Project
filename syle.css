@@ -1,0 +1,94 @@
+@import url("https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Hand&family=Figtree:ital,wght@0,300..900;1,300..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+*,
+::after,
+::before {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  /* font-weight: ; */
+  font-style: normal;
+}
+/* <!-- =====================================Author:mosaddik_Billah==============================================     
+==================================E-mail:mosaddek.b1307@gmail.com ========================================  
+===============================Web: https://mosaddikbillah.vercel.app ====================================  --> */
+
+body {
+  background: hsl(0, 0%, 8%);
+}
+
+.main_area {
+  display: flex;
+}
+
+.main_area p {
+  color: #fff;
+}
+
+.conteiner {
+  margin: 0 auto;
+  margin-top: 85px;
+  flex-direction: column;
+  text-align: center;
+  width: 300px;
+  height: 400px;
+  background: hsl(0, 0%, 12%);
+  padding: 10px;
+  border-radius: 7px;
+}
+
+.conteiner img {
+  width: 60px;
+  margin: 0 auto;
+  border-radius: 50%;
+  margin-top: 20px;
+}
+
+.conteiner h2 {
+  color: #fff;
+  margin-top: 7px;
+}
+
+.conteiner h4 {
+  color: hsl(75, 94%, 57%);
+  margin-top: 7px;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.conteiner p {
+  font-size: 13px;
+  margin-top: 20px;
+  margin-bottom: 12px;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: column;
+}
+
+.buttons input {
+  width: 90%;
+  height: 30px;
+  text-align: center;
+  margin-bottom: 7px;
+  background: hsl(0, 0%, 20%);
+  color: #fff;
+  border: 0;
+  outline: 0;
+  font-size: 13px;
+  text-align: center;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.buttons input:hover {
+  background: hsl(75, 94%, 57%);
+  color: black;
+}
+
+.conteiner h2::selection {
+  background: hsl(75, 94%, 57%);
+  color: black;
+}
